@@ -1,0 +1,93 @@
+#header{
+  height: 100vh;
+}
+
+#info{
+  background: url("../../assets/Bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff
+
+}
+
+.infoWrapper{
+  margin-left: 160px
+}
+
+.infoText > h1{
+  font-size: 7.5rem;
+  font-weight: 600 ;
+  letter-spacing: 10px;
+  margin: 0;
+  line-height: 130px
+}
+
+.infoText  h1 span{
+  color: #F9CE9A;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.infoText  h1 span:hover{
+  color: #FF7A8A;
+}
+
+
+.infoText > h4{
+ font-family: inherit;
+ font-size: 38px;
+ letter-spacing: 16px;
+ font-weight: bold;
+ color: #ffffffbf;
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: bolder
+}
+
+#button{
+    font-size: 35px;
+    border-radius: 44px;
+    padding: 19px 48px;
+    border: none;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:all 0.5s;
+    font-weight: bolder;
+    -webkit-transition:all 0.5s;
+    -moz-transition:all 0.5s;
+    -ms-transition:all 0.5s;
+    -o-transition:all 0.5s;
+}
+
+#button:focus{
+  border: none;
+}
+
+  .myworks{
+  color: #FF7A8A;
+  background: #FFF;
+  margin-right: 23px;
+}
+  .myworks:hover{
+  background: #FF7A8A;
+  color: #FFF;
+}
+  .hireme{
+  background: #FF7A8A;
+  color: #fff;
+  margin-left: 10px;  
+}
+  .hireme:hover{
+  color: #FF7A8A;
+  background:transparent
+
+}
+
+.img{
+  height: 100%;
+  width: 100%
+}
